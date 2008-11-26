@@ -2,7 +2,7 @@ require File.join(File.dirname(__FILE__), 'test_helper')
 
 class PlaceMappingTest < Test::Unit::TestCase
 
-  place_xml = File.read('fixtures/place.xml')
+  place_xml = File.read(File.dirname(__FILE__) + '/fixtures/place.xml')
 
   test 'should parse a single place' do
     place = Qype::Place.parse(place_xml, :single => true)

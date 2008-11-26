@@ -6,55 +6,48 @@
   <place>
     <title>Croques &amp; Pizza Bistro</title>
     <phone>040 48 81 82</phone>
-
     <average_rating>5.11918</average_rating>
     <id>tag:api.qype.com,2006-01-17:/places/191</id>
     <updated>2008-08-11T17:40:46+02:00</updated>
     <created>2006-01-17T16:41:01+01:00</created>
     <point>53.5952,10.0005</point>
     <image medium="http://assets2.qype.com/uploads/photos/0035/9018/22_thumb.JPG?1218313316" large="http://assets2.qype.com/uploads/photos/0035/9018/22_gallery.JPG?1218313316" small="http://assets2.qype.com/uploads/photos/0035/9018/22_mini.JPG?1218313316"/>
-
     <address>
       <street>Ohlsdorfer Stra&#223;e</street>
       <postcode>22299</postcode>
       <housenumber>2</housenumber>
       <city>Hamburg</city>
     </address>
-
-<category>
-  <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
-  <updated>2008-10-20T18:24:35+02:00</updated>
-  <created>2007-08-23T14:09:42+02:00</created>
-  <title lang="de">Pizza &amp; Italienische Restaurants</title>
-  <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
-
-  <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
-<category>
-  <id>tag:api.qype.com,2007-08-24:/places/categories/149</id>
-  <updated>2008-10-20T18:27:00+02:00</updated>
-  <created>2007-08-24T13:53:17+02:00</created>
-  <title lang="de">Bistros</title>
-
-  <link href="http://api.qype.com/v1/place_categories/149" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/149/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
-<category>
-  <id>tag:api.qype.com,2008-05-15:/places/categories/757</id>
-  <updated>2008-10-20T18:57:17+02:00</updated>
-  <created>2008-05-15T18:25:01+02:00</created>
-
-  <title lang="de">Croques</title>
-  <link href="http://api.qype.com/v1/place_categories/757" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/757/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/332" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
+      <updated>2008-10-20T18:24:35+02:00</updated>
+      <created>2007-08-23T14:09:42+02:00</created>
+      <title lang="de">Pizza &amp; Italienische Restaurants</title>
+      <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
+    <category>
+      <id>tag:api.qype.com,2007-08-24:/places/categories/149</id>
+      <updated>2008-10-20T18:27:00+02:00</updated>
+      <created>2007-08-24T13:53:17+02:00</created>
+      <title lang="de">Bistros</title>
+      <link href="http://api.qype.com/v1/place_categories/149" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/149/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
+    <category>
+      <id>tag:api.qype.com,2008-05-15:/places/categories/757</id>
+      <updated>2008-10-20T18:57:17+02:00</updated>
+      <created>2008-05-15T18:25:01+02:00</created>
+      <title lang="de">Croques</title>
+      <link href="http://api.qype.com/v1/place_categories/757" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/757/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/332" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/191" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/191/reviews/de" count="27" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/191/reviews/en" count="1" rel="http://schemas.qype.com/reviews"/>
-
     <link hreflang="fr" href="http://api.qype.com/v1/places/191/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/191/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="pt" href="http://api.qype.com/v1/places/191/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
@@ -64,14 +57,12 @@
   </place>
   <place>
     <title>Pauli Pizza</title>
-
     <phone>040 67303046</phone>
     <url>http://www.pauli-pizza.de</url>
     <average_rating>4.97618</average_rating>
     <id>tag:api.qype.com,2007-09-12:/places/61871</id>
     <updated>2008-09-29T23:58:46+02:00</updated>
     <created>2007-09-12T10:47:02+02:00</created>
-
     <point>53.5506,9.96014</point>
     <image medium="http://assets1.qype.com/uploads/photos/0045/7012/01_thumb.jpg?1223217962" large="http://assets0.qype.com/uploads/photos/0045/7012/01_gallery.jpg?1223217961" small="http://assets2.qype.com/uploads/photos/0045/7012/01_mini.jpg?1223217960"/>
     <address>
@@ -79,24 +70,21 @@
       <postcode>20359</postcode>
       <housenumber>22</housenumber>
       <city>Hamburg</city>
-
     </address>
-<category>
-  <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
-  <updated>2008-10-20T18:24:35+02:00</updated>
-  <created>2007-08-23T14:09:42+02:00</created>
-  <title lang="de">Pizza &amp; Italienische Restaurants</title>
-
-  <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
+      <updated>2008-10-20T18:24:35+02:00</updated>
+      <created>2007-08-23T14:09:42+02:00</created>
+      <title lang="de">Pizza &amp; Italienische Restaurants</title>
+      <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/61871" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/61871/reviews/de" count="16" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/61871/reviews/en" count="4" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="fr" href="http://api.qype.com/v1/places/61871/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/61871/reviews/es" count="1" rel="http://schemas.qype.com/reviews"/>
-
     <link hreflang="pt" href="http://api.qype.com/v1/places/61871/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
     <link href="http://api.qype.com/v1/places/61871/assets" rel="http://schemas.qype.com/assets"/>
@@ -105,38 +93,33 @@
   <place>
     <title>Pauli Pizza - Schanze</title>
     <phone>040.79690359</phone>
-
     <url>http://www.myspace.com/paulipizza</url>
     <average_rating>3.5</average_rating>
     <id>tag:api.qype.com,2008-09-26:/places/239345</id>
     <updated>2008-09-26T10:02:42+02:00</updated>
     <created>2008-09-26T10:02:17+02:00</created>
     <point>53.5612,9.95602</point>
-
     <image medium="http://assets0.qype.com/uploads/photos/0049/0097/PauliPizza_thumb.JPG?1224623257" large="http://assets1.qype.com/uploads/photos/0049/0097/PauliPizza_gallery.JPG?1224623258" small="http://assets3.qype.com/uploads/photos/0049/0097/PauliPizza_mini.JPG?1224623258"/>
     <address>
       <street>Stresemannstra&#223;e</street>
       <postcode>22769</postcode>
       <housenumber>119</housenumber>
       <city>Hamburg</city>
-
     </address>
-<category>
-  <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
-  <updated>2008-10-20T18:24:35+02:00</updated>
-  <created>2007-08-23T14:09:42+02:00</created>
-  <title lang="de">Pizza &amp; Italienische Restaurants</title>
-
-  <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
+      <updated>2008-10-20T18:24:35+02:00</updated>
+      <created>2007-08-23T14:09:42+02:00</created>
+      <title lang="de">Pizza &amp; Italienische Restaurants</title>
+      <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/239345" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/239345/reviews/de" count="2" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/239345/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="fr" href="http://api.qype.com/v1/places/239345/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/239345/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
-
     <link hreflang="pt" href="http://api.qype.com/v1/places/239345/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
     <link href="http://api.qype.com/v1/places/239345/assets" rel="http://schemas.qype.com/assets"/>
@@ -145,31 +128,27 @@
   <place>
     <title>American Pizza Profis</title>
     <phone>040 770054</phone>
-
     <url>http://www.american-pizza-profis.de</url>
     <average_rating>3.15</average_rating>
     <id>tag:api.qype.com,2008-06-17:/places/163819</id>
     <updated>2008-10-20T13:11:02+02:00</updated>
     <created>2008-06-17T17:08:09+02:00</created>
     <point>53.4545,9.9875</point>
-
     <address>
       <street>Wilstorfer Str.</street>
       <postcode>21073</postcode>
       <housenumber>84</housenumber>
       <city>Hamburg</city>
     </address>
-<category>
-
-  <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
-  <updated>2008-10-20T18:28:03+02:00</updated>
-  <created>2007-09-16T18:52:58+02:00</created>
-  <title lang="de">Liefer- &amp; Pizzaservice </title>
-  <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
-
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
+      <updated>2008-10-20T18:28:03+02:00</updated>
+      <created>2007-09-16T18:52:58+02:00</created>
+      <title lang="de">Liefer- &amp; Pizzaservice </title>
+      <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/163819" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/163819/reviews/de" count="2" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/163819/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
@@ -177,7 +156,6 @@
     <link hreflang="es" href="http://api.qype.com/v1/places/163819/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="pt" href="http://api.qype.com/v1/places/163819/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
-
     <link href="http://api.qype.com/v1/places/163819/assets" rel="http://schemas.qype.com/assets"/>
     <link href="http://api.qype.com/v1/positions/53.4545,9.9875/places?without=163819" rel="http://schemas.qype.com/places.nearby"/>
   </place>
@@ -185,38 +163,33 @@
     <title>Sofia Pizza Lieferservice Hamburg, italienischer Lieferdienst</title>
     <phone>040 764 21 87</phone>
     <url>http://www.sofia-pizza.de</url>
-
     <average_rating>3.15</average_rating>
     <id>tag:api.qype.com,2006-12-06:/places/22397</id>
     <updated>2008-10-09T16:20:00+02:00</updated>
     <created>2006-12-06T17:38:24+01:00</created>
     <point>53.4504,9.98828</point>
     <image medium="http://assets3.qype.com/uploads/photos/0000/8595/sofiahamburglieferdienst_thumb.jpg?1200835412" large="http://assets3.qype.com/uploads/photos/0000/8595/sofiahamburglieferdienst_gallery.jpg?1200835412" small="http://assets3.qype.com/uploads/photos/0000/8595/sofiahamburglieferdienst_mini.jpg?1200835413"/>
-
     <address>
       <street>N&#246;ldekestrasse  </street>
       <postcode>21079</postcode>
       <housenumber>2</housenumber>
       <city>Hamburg</city>
     </address>
-
-<category>
-  <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
-  <updated>2008-10-20T18:28:03+02:00</updated>
-  <created>2007-09-16T18:52:58+02:00</created>
-  <title lang="de">Liefer- &amp; Pizzaservice </title>
-  <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
-
-  <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
+      <updated>2008-10-20T18:28:03+02:00</updated>
+      <created>2007-09-16T18:52:58+02:00</created>
+      <title lang="de">Liefer- &amp; Pizzaservice </title>
+      <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/22397" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/22397/reviews/de" count="2" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/22397/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="fr" href="http://api.qype.com/v1/places/22397/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/22397/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="pt" href="http://api.qype.com/v1/places/22397/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
-
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
     <link href="http://api.qype.com/v1/places/22397/assets" rel="http://schemas.qype.com/assets"/>
     <link href="http://api.qype.com/v1/positions/53.4504,9.98828/places?without=22397" rel="http://schemas.qype.com/places.nearby"/>
@@ -225,30 +198,26 @@
     <title>Robby's Pizza Drive</title>
     <phone>040 803031</phone>
     <url>http://www.robbys-pizza-drive.de/</url>
-
     <average_rating>3.15</average_rating>
     <id>tag:api.qype.com,2006-12-08:/places/22620</id>
     <updated>2008-07-13T18:00:01+02:00</updated>
     <created>2006-12-08T20:58:04+01:00</created>
     <point>53.5729,9.84411</point>
     <address>
-
       <street>Osdorfer Landstra&#223;e </street>
       <postcode>22549</postcode>
       <housenumber>245</housenumber>
       <city>Hamburg</city>
     </address>
-<category>
-  <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
-
-  <updated>2008-10-20T18:28:03+02:00</updated>
-  <created>2007-09-16T18:52:58+02:00</created>
-  <title lang="de">Liefer- &amp; Pizzaservice </title>
-  <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
+      <updated>2008-10-20T18:28:03+02:00</updated>
+      <created>2007-09-16T18:52:58+02:00</created>
+      <title lang="de">Liefer- &amp; Pizzaservice </title>
+      <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/22620" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/22620/reviews/de" count="2" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/22620/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
@@ -257,7 +226,6 @@
     <link hreflang="pt" href="http://api.qype.com/v1/places/22620/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
     <link href="http://api.qype.com/v1/places/22620/assets" rel="http://schemas.qype.com/assets"/>
-
     <link href="http://api.qype.com/v1/positions/53.5729,9.84411/places?without=22620" rel="http://schemas.qype.com/places.nearby"/>
   </place>
   <place>
@@ -265,7 +233,6 @@
     <url>http://www.dinos-winterhude.de</url>
     <average_rating>3.15</average_rating>
     <id>tag:api.qype.com,2007-10-26:/places/71229</id>
-
     <updated>2007-10-26T13:25:28+02:00</updated>
     <created>2007-10-26T13:25:20+02:00</created>
     <point>53.5734,10.0213</point>
@@ -273,24 +240,21 @@
     <address>
       <street>Kanalstrasse </street>
       <postcode>22085</postcode>
-
       <housenumber>36</housenumber>
       <city>Hamburg</city>
     </address>
-<category>
-  <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
-  <updated>2008-10-20T18:28:03+02:00</updated>
-  <created>2007-09-16T18:52:58+02:00</created>
-
-  <title lang="de">Liefer- &amp; Pizzaservice </title>
-  <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
+      <updated>2008-10-20T18:28:03+02:00</updated>
+      <created>2007-09-16T18:52:58+02:00</created>
+      <title lang="de">Liefer- &amp; Pizzaservice </title>
+      <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/71229" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/71229/reviews/de" count="2" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/71229/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
-
     <link hreflang="fr" href="http://api.qype.com/v1/places/71229/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/71229/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="pt" href="http://api.qype.com/v1/places/71229/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
@@ -300,14 +264,12 @@
   </place>
   <place>
     <title>Enjoy Pizza-Lieferservice GmbH</title>
-
     <phone>040 69796513</phone>
     <url>http://www.pizza-enjoy.de/</url>
     <average_rating>4.0</average_rating>
     <id>tag:api.qype.com,2006-04-21:/places/2004</id>
     <updated>2006-12-15T09:26:18+01:00</updated>
     <created>2006-04-21T12:26:18+02:00</created>
-
     <point>53.5931,10.0814</point>
     <image medium="http://assets0.qype.com/uploads/photos/0000/0469/lammfleisch_thumb.gif?1200829403" large="http://assets0.qype.com/uploads/photos/0000/0469/lammfleisch_gallery.gif?1200829403" small="http://assets3.qype.com/uploads/photos/0000/0469/lammfleisch_mini.gif?1200829403"/>
     <address>
@@ -315,24 +277,21 @@
       <postcode>22047</postcode>
       <housenumber>141</housenumber>
       <city>Hamburg</city>
-
     </address>
-<category>
-  <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
-  <updated>2008-10-20T18:24:35+02:00</updated>
-  <created>2007-08-23T14:09:42+02:00</created>
-  <title lang="de">Pizza &amp; Italienische Restaurants</title>
-
-  <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-08-23:/places/categories/16</id>
+      <updated>2008-10-20T18:24:35+02:00</updated>
+      <created>2007-08-23T14:09:42+02:00</created>
+      <title lang="de">Pizza &amp; Italienische Restaurants</title>
+      <link href="http://api.qype.com/v1/place_categories/16" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/16/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/2004" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/2004/reviews/de" count="6" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/2004/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="fr" href="http://api.qype.com/v1/places/2004/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/2004/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
-
     <link hreflang="pt" href="http://api.qype.com/v1/places/2004/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
     <link href="http://api.qype.com/v1/places/2004/assets" rel="http://schemas.qype.com/assets"/>
@@ -341,14 +300,12 @@
   <place>
     <title>Hallo Pizza</title>
     <phone>040 278747-0</phone>
-
     <url>http://www.hallopizza.de</url>
     <average_rating>3.825</average_rating>
     <id>tag:api.qype.com,2007-06-10:/places/43940</id>
     <updated>2008-10-23T11:32:53+02:00</updated>
     <created>2007-06-10T22:34:33+02:00</created>
     <point>53.5761,10.0237</point>
-
     <image medium="http://assets3.qype.com/uploads/photos/0035/4053/logo_hallopizza_thumb.gif?1218014991" large="http://assets0.qype.com/uploads/photos/0035/4053/logo_hallopizza_gallery.gif?1218014991" small="http://assets3.qype.com/uploads/photos/0035/4053/logo_hallopizza_mini.gif?1218014992"/>
     <address>
       <street>Beethovenstr.</street>
@@ -356,24 +313,21 @@
       <housenumber>37</housenumber>
       <city>Hamburg</city>
     </address>
-
-<category>
-  <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
-  <updated>2008-10-20T18:28:03+02:00</updated>
-  <created>2007-09-16T18:52:58+02:00</created>
-  <title lang="de">Liefer- &amp; Pizzaservice </title>
-  <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
-
-  <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-09-16:/places/categories/210</id>
+      <updated>2008-10-20T18:28:03+02:00</updated>
+      <created>2007-09-16T18:52:58+02:00</created>
+      <title lang="de">Liefer- &amp; Pizzaservice </title>
+      <link href="http://api.qype.com/v1/place_categories/210" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/210/children" rel="http://schemas.qype.com/place_categories.children"/>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+    </category>
     <link href="http://api.qype.com/v1/places/43940" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/43940/reviews/de" count="5" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/43940/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="fr" href="http://api.qype.com/v1/places/43940/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/43940/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="pt" href="http://api.qype.com/v1/places/43940/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
-
     <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
     <link href="http://api.qype.com/v1/places/43940/assets" rel="http://schemas.qype.com/assets"/>
     <link href="http://api.qype.com/v1/positions/53.5761,10.0237/places?without=43940" rel="http://schemas.qype.com/places.nearby"/>
@@ -382,31 +336,27 @@
     <title>Pizza Service Johlo</title>
     <phone>040 818185</phone>
     <average_rating>3.0</average_rating>
-
     <id>tag:api.qype.com,2008-10-17:/places/268544</id>
     <updated>2008-10-17T15:29:23+02:00</updated>
     <created>2008-10-17T15:29:23+02:00</created>
     <point>53.5817,9.75437</point>
     <address>
       <street>Rissener Dorfstr.</street>
-
       <postcode>22559</postcode>
       <housenumber>54</housenumber>
       <city>Hamburg</city>
     </address>
-<category>
-  <id>tag:api.qype.com,2007-08-20:/places/categories/1</id>
-  <updated>2008-10-20T18:24:21+02:00</updated>
-
-  <created>2007-08-20T18:11:47+02:00</created>
-  <title lang="de">Restaurants</title>
-  <link href="http://api.qype.com/v1/place_categories/1" rel="self"/>
-  <link href="http://api.qype.com/v1/place_categories/1/children" rel="http://schemas.qype.com/place_categories.children"/>
-</category>
+    <category>
+      <id>tag:api.qype.com,2007-08-20:/places/categories/1</id>
+      <updated>2008-10-20T18:24:21+02:00</updated>
+      <created>2007-08-20T18:11:47+02:00</created>
+      <title lang="de">Restaurants</title>
+      <link href="http://api.qype.com/v1/place_categories/1" rel="self"/>
+      <link href="http://api.qype.com/v1/place_categories/1/children" rel="http://schemas.qype.com/place_categories.children"/>
+    </category>
     <link href="http://api.qype.com/v1/places/268544" rel="self"/>
     <link hreflang="de" href="http://api.qype.com/v1/places/268544/reviews/de" count="1" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="en" href="http://api.qype.com/v1/places/268544/reviews/en" count="0" rel="http://schemas.qype.com/reviews"/>
-
     <link hreflang="fr" href="http://api.qype.com/v1/places/268544/reviews/fr" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="es" href="http://api.qype.com/v1/places/268544/reviews/es" count="0" rel="http://schemas.qype.com/reviews"/>
     <link hreflang="pt" href="http://api.qype.com/v1/places/268544/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>

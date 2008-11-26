@@ -67,4 +67,13 @@ module Qype
     end
   end
 
+  class Review
+    include HappyMapper
+
+    tag 'review'
+
+    element :rating, Integer
+    element :language, String
+  end
+
 end

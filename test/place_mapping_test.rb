@@ -68,4 +68,20 @@ class PlaceMappingTest < Test::Unit::TestCase
     end
   end
 
+  context 'Search places' do
+
+    test 'should search for places' do
+      client = mock_client(File.dirname(__FILE__) + '/fixtures/places.xml')
+      places = Qype::Place.search(client, 'Sushi', 'Hamburg')
+      assert_equal 10, places.size
+    end
+
+    test 'should find places nearby' do
+      client = mock_client(File.dirname(__FILE__) + '/fixtures/places.xml')
+      places = Qype::Place.nearby(client, 53.5511, 9.98199)
+      assert_equal 10, places.size
+    end
+
+  end
+
 end

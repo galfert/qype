@@ -25,6 +25,10 @@ module Qype
       Place.search(self, search_term, location_name)
     end
 
+    def nearby_places(latitude, longitude, options = {})
+      Place.nearby(self, latitude, longitude, options)
+    end
+
     def get_place(place_id)
       Place.get(self, place_id)
     end

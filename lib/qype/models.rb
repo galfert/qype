@@ -73,6 +73,17 @@ module Qype
       response = client.get('/places', :query => { :show => search_term, :in => location_name })
       Place.parse(response)
     end
+
+    # options can be
+    #   :show => search_term            show places matching this search term
+    #   :in_category => category_id     only show places in a specific category 
+    #   :order => order                 order results by: 'distance' (default), 'rating'
+    #
+    def self.nearby(client, latitude, longitude, options = {})
+      response = client.get("/positions/#{latitude},#{longitude}/places", :query => options)
+      Place.parse(response)
+    end
+
   end
 
   class Tag

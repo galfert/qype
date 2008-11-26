@@ -56,6 +56,14 @@ module Qype
     has_many :categories, Category
     has_many :links, Link
 
+    def reviews(client, language_code)
+      link = self.links.find { |link| link.rel == 'http://schemas.qype.com/reviews' && link.hreflang == language_code }
+      throw :language_not_supported if link.nil?
+
+      response = client.get(link.href)
+      Review.parse(response)
+    end
+
     def self.get(client, place_id)
       response = client.get("/places/#{place_id}")
       parse(response, :single => true)

@@ -72,4 +72,13 @@ class PlaceMappingTest < Test::Unit::TestCase
     assets_link = place.links.find { |link| link.rel == 'http://schemas.qype.com/assets' }
     assert_not_nil assets_link
   end
+
+  test 'should fetch reviews in a specific language' do
+    place = Qype::Place.parse(place_xml, :single => true)
+    client = mock_client(File.dirname(__FILE__) + '/fixtures/reviews.xml')
+
+    reviews = place.reviews(client, 'de')
+    assert_equal 10, reviews.size
+  end
+
 end

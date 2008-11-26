@@ -1,5 +1,17 @@
 module Qype
 
+  class Link
+    include HappyMapper
+
+    tag 'link'
+
+    attribute :href, String
+    attribute :hreflang, String
+    attribute :title, String
+    attribute :rel, String
+    attribute :count, Integer
+  end
+
   class Category
     include HappyMapper
 
@@ -42,6 +54,7 @@ module Qype
     has_one :image, Image
     has_one :address, Address
     has_many :categories, Category
+    has_many :links, Link
 
     def self.get(client, place_id)
       response = client.get("/places/#{place_id}")

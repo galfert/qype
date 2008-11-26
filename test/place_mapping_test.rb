@@ -47,4 +47,29 @@ class PlaceMappingTest < Test::Unit::TestCase
     assert_equal "Türkische Restaurants", categories[1].title
   end
 
+  test 'should include links to reviews in multiple languages' do
+    place = Qype::Place.parse(place_xml, :single => true)
+
+    review_links = place.links.select { |link| link.rel == 'http://schemas.qype.com/reviews' }
+    assert_equal 5, review_links.size
+
+    german_link = review_links.find { |link| link.hreflang == 'de' }
+    assert_equal 'http://api.qype.com/v1/places/7019/reviews/de', german_link.href
+    assert_equal 40, german_link.count
+  end
+
+  test 'should include a link to the locator' do
+    place = Qype::Place.parse(place_xml, :single => true)
+
+    locator_link = place.links.find { |link| link.rel == 'http://schemas.qype.com/locator' }
+    assert_not_nil locator_link
+    assert_equal 'Hamburg', locator_link.title
+  end
+
+  test 'should include a link to assets for the place' do
+    place = Qype::Place.parse(place_xml, :single => true)
+
+    assets_link = place.links.find { |link| link.rel == 'http://schemas.qype.com/assets' }
+    assert_not_nil assets_link
+  end
 end

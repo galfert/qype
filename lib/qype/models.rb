@@ -8,6 +8,27 @@ module Qype
     element :title, String
   end
 
+  class Image
+    include HappyMapper
+
+    tag 'image'
+
+    attribute :small, String
+    attribute :medium, String
+    attribute :large, String
+  end
+
+  class Address
+    include HappyMapper
+
+    tag 'address'
+
+    element :street, String
+    element :postcode, String
+    element :housenumber, String
+    element :city, String
+  end
+
   class Place
     include HappyMapper
 
@@ -15,7 +36,11 @@ module Qype
 
     element :title, String
     element :phone, String
+    element :average_rating, Float
+    element :point, String
 
+    has_one :image, Image
+    has_one :address, Address
     has_many :categories, Category
 
     def self.get(client, place_id)

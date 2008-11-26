@@ -75,6 +75,14 @@ module Qype
     end
   end
 
+  class Tag
+    include HappyMapper
+
+    tag 'tag'
+
+    attribute :term, String
+  end
+
   class Review
     include HappyMapper
 
@@ -82,6 +90,11 @@ module Qype
 
     element :rating, Integer
     element :language, String
+    element :content, String, :tag => "content[@type='text']"
+    element :formatted_content, String, :tag => "content[@type='xhtml']"
+
+    has_many :tags, Tag
+    has_many :links, Link
   end
 
 end

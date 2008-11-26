@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place>
+  <title>Mr. Kebab</title>
+  <phone>040 437798</phone>
+  <average_rating>4.95</average_rating>
+  <id>tag:api.qype.com,2006-06-10:/places/7019</id>
+  <updated>2008-09-02T15:54:03+02:00</updated>
+
+  <created>2006-06-10T22:48:22+02:00</created>
+  <point>53.5564,9.96239</point>
+  <image medium="http://assets2.qype.com/uploads/photos/0017/4291/IMG_2092_thumb.JPG?1208428303" large="http://assets3.qype.com/uploads/photos/0017/4291/IMG_2092_gallery.JPG?1208428300" small="http://assets1.qype.com/uploads/photos/0017/4291/IMG_2092_mini.JPG?1208428301"/>
+  <address>
+    <street>Thadenstrasse</street>
+    <postcode>22767</postcode>
+    <housenumber>1</housenumber>
+
+    <city>Hamburg</city>
+  </address>
+<category>
+  <id>tag:api.qype.com,2008-02-04:/places/categories/590</id>
+  <updated>2008-10-20T18:52:50+02:00</updated>
+  <created>2008-02-04T13:30:53+01:00</created>
+  <title lang="de">D&#246;ner und Griechischer Imbiss</title>
+
+  <link href="http://api.qype.com/v1/place_categories/590" rel="self"/>
+  <link href="http://api.qype.com/v1/place_categories/590/children" rel="http://schemas.qype.com/place_categories.children"/>
+  <link href="http://api.qype.com/v1/place_categories/42" rel="http://schemas.qype.com/place_category.parent"/>
+</category>
+<category>
+  <id>tag:api.qype.com,2007-11-22:/places/categories/445</id>
+  <updated>2008-10-20T18:32:06+02:00</updated>
+  <created>2007-11-22T12:04:36+01:00</created>
+
+  <title lang="de">T&#252;rkische Restaurants</title>
+  <link href="http://api.qype.com/v1/place_categories/445" rel="self"/>
+  <link href="http://api.qype.com/v1/place_categories/445/children" rel="http://schemas.qype.com/place_categories.children"/>
+  <link href="http://api.qype.com/v1/place_categories/1" rel="http://schemas.qype.com/place_category.parent"/>
+</category>
+  <link href="http://api.qype.com/v1/places/7019" rel="self"/>
+  <link hreflang="de" href="http://api.qype.com/v1/places/7019/reviews/de" count="40" rel="http://schemas.qype.com/reviews"/>
+  <link hreflang="en" href="http://api.qype.com/v1/places/7019/reviews/en" count="11" rel="http://schemas.qype.com/reviews"/>
+
+  <link hreflang="fr" href="http://api.qype.com/v1/places/7019/reviews/fr" count="4" rel="http://schemas.qype.com/reviews"/>
+  <link hreflang="es" href="http://api.qype.com/v1/places/7019/reviews/es" count="1" rel="http://schemas.qype.com/reviews"/>
+  <link hreflang="pt" href="http://api.qype.com/v1/places/7019/reviews/pt" count="0" rel="http://schemas.qype.com/reviews"/>
+  <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
+  <link href="http://api.qype.com/v1/places/7019/assets" rel="http://schemas.qype.com/assets"/>
+  <link href="http://api.qype.com/v1/positions/53.5564,9.96239/places?without=7019" rel="http://schemas.qype.com/places.nearby"/>
+</place>

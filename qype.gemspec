@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Florian Munz"]
-  s.date = %q{2008-12-02}
+  s.date = %q{2008-12-04}
   s.description = %q{The official Ruby Library for interacting with the Qype API.}
   s.email = %q{florian@qype.com}
-  s.extra_rdoc_files = ["lib/httparty_patch.rb", "lib/qype/models.rb", "lib/qype.rb", "LICENSE", "README.markdown"]
-  s.files = ["lib/httparty_patch.rb", "lib/qype/models.rb", "lib/qype.rb", "LICENSE", "Rakefile", "README.markdown", "test/fixtures/place.xml", "test/fixtures/places.xml", "test/fixtures/review.xml", "test/fixtures/reviews.xml", "test/place_mapping_test.rb", "test/review_mapping_test.rb", "test/test_helper.rb", "Manifest", "qype.gemspec"]
+  s.extra_rdoc_files = ["lib/httparty_patch.rb", "lib/qype/client.rb", "lib/qype/models.rb", "lib/qype.rb", "LICENSE", "README.markdown"]
+  s.files = ["lib/httparty_patch.rb", "lib/qype/client.rb", "lib/qype/models.rb", "lib/qype.rb", "LICENSE", "Manifest", "Rakefile", "README.markdown", "test/fixtures/place.xml", "test/fixtures/places.xml", "test/fixtures/review.xml", "test/fixtures/reviews.xml", "test/place_mapping_test.rb", "test/review_mapping_test.rb", "test/test_helper.rb", "qype.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/qype/qype}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Qype", "--main", "README.markdown"]
@@ -25,8 +25,11 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_development_dependency(%q<echoe>, [">= 0"])
     else
+      s.add_dependency(%q<echoe>, [">= 0"])
     end
   else
+    s.add_dependency(%q<echoe>, [">= 0"])
   end
 end

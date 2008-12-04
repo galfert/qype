@@ -16,6 +16,4 @@ Echoe.new('qype', '0.1.0') do |p|
   p.url            = 'http://github.com/qype/qype'
   p.author         = 'Florian Munz'
   p.email          = 'florian@qype.com'
-  p.ignore_pattern = ["tmp/*"]
-  p.development_dependencies = []
 end

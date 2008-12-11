@@ -42,6 +42,18 @@ class ReviewMappingTest < Test::Unit::TestCase
       assert_not_nil user_link
       assert_equal 'Grobi', user_link.title
     end
+    
+    test 'should fetch the place' do
+      client = mock_client(File.dirname(__FILE__) + '/fixtures/place.xml')
+      place = @review.place(client)
+      assert_equal 'Mr. Kebab', place.title
+    end
+
+    test 'should fetch the user' do
+      client = mock_client(File.dirname(__FILE__) + '/fixtures/user.xml')
+      user = @review.user(client)
+      assert_equal 'Grobi', user.title
+    end
   end
 
 end

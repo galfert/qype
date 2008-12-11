@@ -106,6 +106,22 @@ module Qype
 
     has_many :tags, Tag
     has_many :links, Link
+
+    def user(client)
+      link = self.links.find { |link| link.rel == 'http://schemas.qype.com/user' }
+      throw :user_not_found if link.nil?
+
+      response = client.get(link.href)
+      User.parse(response, :single => true)
+    end
+
+    def place(client)
+      link = self.links.find { |link| link.rel == 'http://schemas.qype.com/place' }
+      throw :place_not_found if link.nil?
+
+      response = client.get(link.href)
+      Place.parse(response, :single => true)
+    end
   end
 
   class User

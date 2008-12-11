@@ -108,4 +108,35 @@ module Qype
     has_many :links, Link
   end
 
+  class User
+    include HappyMapper
+
+    tag 'user'
+
+    element :title, String
+    element :points, Integer
+    element :language, String
+    element :level, String
+
+    has_many :links, Link
+
+    def self.get(client, user_id)
+      response = client.get("/users/#{user_id}")
+      parse(response, :single => true)
+    end
+
+    # options can be
+    #   :in_category => category_id     only show reviews written for places in this category 
+    #   :tagged_with => tag             only show reviews tagged with a specific tag
+    #   :order => order                 order results by: 'date_created', 'date_updated' or 'rating'
+    #
+    def reviews(client, options = {})
+      link = self.links.find { |link| link.rel == 'http://schemas.qype.com/reviews' }
+      throw :reviews_not_found if link.nil?
+
+      response = client.get(link.href, :query => options)
+      Review.parse(response)
+    end
+  end
+
 end

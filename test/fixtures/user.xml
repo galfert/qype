@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <title>Grobi</title>
+  <points>6860</points>
+  <language>de</language>
+  <id>tag:api.qype.com,2008-06-02:/users/Grobi</id>
+  <updated>2008-12-06T22:45:21+01:00</updated>
+
+  <created>2008-06-02T18:51:57+02:00</created>
+  <level lang="de">Advanced Insider</level>
+  <link href="http://api.qype.com/v1/users/Grobi" rel="self"/>
+  <link href="http://api.qype.com/v1/locators/de600-hamburg" title="Hamburg" rel="http://schemas.qype.com/locator"/>
+  <link href="http://api.qype.com/v1/users/Grobi/reviews" title="reviews" rel="http://schemas.qype.com/reviews"/>
+</user>
